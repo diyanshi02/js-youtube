@@ -31,3 +31,28 @@ console.log("hello world!");
 }
 
 console.log(typeof anotherId);
+
+
+
+//***************memory*************
+
+// stack(primitive), heap(non primitve)
+
+let myNiceName = "diyanshisharmagreat"
+
+let anotherName = myNiceName
+anotherName = "chocolateisgreat"
+console.log(anotherName);
+console.log(myNiceName);
+
+let user1 = {
+    email: "diyanshi088702@gmail.com",
+    upi: "d@ybl"
+}
+
+let user2 = user1;
+
+user2.upi = "ds@ybl";
+
+console.log(user1.upi);
+console.log(user2.upi);
