@@ -44,12 +44,32 @@ function loginUserMessage(username){
 function calculateCartPrice(val1, val2, ...num1){   //REST operator
 return num1
 }
-console.log(calculateCartPrice(200,300,400))
+//console.log(calculateCartPrice(200,300,400))
 
-const user ={
+const user1 =
+{
     username: "diya",
-    price: 87
+    price: 34
 }
+const user2 =
+{
+    username: "piya",
+    price: 34
+}
+
 function handleObject(anyObject){
-    console.log(`username is ${anyObject.username} and price is${anyObject.price}`)
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
 }
+
+//handleObject(user1)
+handleObject({
+    username: "sam",
+    price: 22
+})
+
+const myNewArr = [200, 400, 600]
+
+function returnsecondValue(getArr){
+    return getArr[2]
+}
+console.log(returnsecondValue(myNewArr))
