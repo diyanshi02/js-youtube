@@ -17,7 +17,7 @@ const jsUser = {
     lastLoginDay: ["monday", "thursday"],
 }
 
-// console.log(jsUser.fullname)
+// console.log(jsUser.fullname) // not a preffered way to call the value
 // console.log(jsUser["fullname"])
 // console.log(jsUser[mySym])
 
@@ -29,5 +29,9 @@ jsUser.email = "dog@gmail.com"
 jsUser.greeting = function(){
     console.log("hello bro")
 }
+jsUser.greetingTwo = function(){
+    console.log(`hello yoo bro, ${this.name}`); //better way
+}
+console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());
 
-console.log(jsUser.greeting);
