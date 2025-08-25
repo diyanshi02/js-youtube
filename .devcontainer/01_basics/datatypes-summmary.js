@@ -10,7 +10,7 @@ let userEmail; //undefined
 const id = Symbol('123');
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId); //even though same value in both symbols it is still considered to be unique so output will be false
 
 const bigNumber = 282729828921898n;//bigInt
 

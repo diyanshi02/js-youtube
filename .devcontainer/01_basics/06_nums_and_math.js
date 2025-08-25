@@ -4,7 +4,7 @@ const balance = new Number(190)
 // console.log(balance);
 
 // console.log(balance.toString().charAt(2));
-// console.log(balance.toFixed(2)) //digitd after decimal used in ecommerce or where too much calculation is involved
+// console.log(balance.toFixed(2)) //digits after decimal used in ecommerce or where too much calculation is involved
 
 const otherNumber = 123.7883
 

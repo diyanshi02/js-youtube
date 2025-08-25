@@ -23,7 +23,7 @@ console.log(anotherString);
 
 const newStringOne = "   diyanshi  "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); //removes all spaces from strating and end
 
 
 const url = "http://d.com/diyanshi%20sharma"

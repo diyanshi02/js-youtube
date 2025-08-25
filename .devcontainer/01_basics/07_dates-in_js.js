@@ -17,7 +17,7 @@ let newDate= new Date()
 //console.log(newDate.getMonth()+1);
 //console.log(`day is ${newDate.getDay()} and the time is ${Math.floor((newDate.getTime()/1000))}`)
 
-newDate.toLocaleString('default', {
+const weekday = newDate.toLocaleString('default', {
     weekday: "long",
 })
-console.log(newDate)
+console.log(weekday)

@@ -10,12 +10,12 @@ let age = 24
 let isLoggedIn = false
 let state;
 
-// number => 2 to the power of 53
+// number => 2 to the power of 53(2**53)
 // bigint
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined =>
+// undefined => when variable is created but value is not provided
 // symbol => unique
 
 

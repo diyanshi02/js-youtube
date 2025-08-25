@@ -1,11 +1,11 @@
 let score = "heyy"
 
-// console.log(typeof score);
-// console.log(typeof (score));
+// console.log(typeof score); //string
+// console.log(typeof (score)); //string
 
 let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log(typeof valueInNumber); //gives number
+// console.log(valueInNumber);  //gives NaN 
 
 //"33" => 33
 //"22abs" => NaN
@@ -37,7 +37,7 @@ let negValue = -value
 // console.log(2*2);
 // console.log(2**2);
 // console.log(2/2);
-// console.log(2%2);
+// console.log(2%2); //remainder
 
 let str1 = "hello";
 let str2 = " diyanshi";
@@ -51,8 +51,9 @@ let str2 = " diyanshi";
 
 // console.log((1 + 3) * 2 + 2 / 4);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); //1
+// console.log(+false); //0
+// console.log(+""); //0
 
 let num1, num2, num3;
 
