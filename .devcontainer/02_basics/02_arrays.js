@@ -8,7 +8,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const newHero = marvel_heros.concat(dc_heros)
 // console.log(newHero)
 
-const all_new_heros = [...marvel_heros,...dc_heros] //adds arrays simply in a new array similiar to concat
+const all_new_heros = [...marvel_heros,...dc_heros] //adds arrays simply in a new array similiar to concat and tghis is known as spread operator
 //console.log(all_new_heros)
 
 const anotherArr = [1,2,3,[4,5], 7, [7,8, [3,4]]]
@@ -19,7 +19,7 @@ console.log(realAnotherArr)
 
 console.log(Array.isArray("diyanshi")) //tells if input is an array or not
 console.log(Array.from("diyanshi")) //converts into an array from whatever initial datatype. here, string to array
-console.log(Array.from({name: "diynshi"})) //will give empty array, interesting  
+console.log(Array.from({name: "diyanshi"})) //will give empty array, interesting  
 
 let score1 = 100
 let score2 = 200
